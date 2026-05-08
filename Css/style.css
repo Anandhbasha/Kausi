@@ -1,0 +1,21 @@
+ #head1{
+    /* background-color: purple; */
+}
+.head1{
+    /* background-color: red; */
+    /* color: white; */
+    /* margin:50px 100px 10px 80px; */
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 15px 5px 10px 50px;
+    border: 2px dashed black;
+    text-align: right;
+}
+span{
+    /* display: block; */
+    /* width: 800px; */
+    /* text-align: center; */
+    float: right;
+}
