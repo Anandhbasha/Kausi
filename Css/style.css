@@ -27,12 +27,12 @@ span{
     /* height: 8vh;
     width: 80vw; */
     /* max-width: 20vw; */
-    height: 50vh;
+    /* height: 50vh;
     width: 50vw;
-    /* max-height: 30vh; */
+    max-height: 30vh; 
     min-height: 60vh;
     background-color: rebeccapurple;
-    border-radius: 50%;
+    border-radius: 50%; */
 }
 .backs{
     font-size: 25px;
@@ -53,4 +53,48 @@ a{
 p{
     /* line-height: 60px; */
     color: red;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(#ff000042,black),url("./Images/download.jpg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+/* position
+static
+fixed
+sticky
+realtive
+absolute */
+.Navbar{
+    background-color: palegreen;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    position: sticky;
+    top: 0;
+}
+.mainContiner{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+.subContainer{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
 }
