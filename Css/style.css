@@ -98,3 +98,59 @@ absolute */
     height: 150px;
     background-color: white;
 }
+
+
+/* after before hover*/
+
+/* a:{
+    color: black;
+    font-size: 1.2em;
+} */
+a{
+    position: relative;
+}
+
+/* a:hover::after{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: " ";
+    background-color: red;
+    height: 3px;
+    width: 100%;
+} */
+
+a:hover::before{
+    position: absolute;
+    left: 0;
+    content: " ";
+    background-color: red;
+    height: 3px;
+    width: 100%;
+}
+a::after{
+    content: "Hello";
+}
+.element{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.tools:hover::after{
+    position: absolute;
+    content: "circle";
+    left: 150px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 15px;
+}
+/* .element:nth-child(odd){
+    background-color: red;
+} */
+
+.element:first-child(){
+    background-color: pink;
+}

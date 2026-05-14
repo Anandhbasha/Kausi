@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: palegoldenrod;
+            margin-bottom: 5px;
+        }
+        /* .box:nth-child(5){
+            background-color:red;
+        } */
+        .box:last-child{
+            background-color: blue;
+        }
+        p::selection{
+            background-color: red;
+        }
+        p::first-line{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate obcaecati minus nulla eum laudantium nam molestiae nihil provident voluptate ducimus odit optio, sapiente dolores magni quis suscipit aliquam unde architecto!</p>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>
