@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* align-items:baseline; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    
+}
+.base1{
+    /* flex-basis: 400px; */
+    /* flex-grow: 2; */
+    flex-shrink: 0;
+}
+.base{
+    width: 200px;
+    height: 300px;
+    background-color: palegreen;
+    /* margin-left: 60px; */
+}
+
+.navBar{
+    background-color: powderblue;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navLinks{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    
+    font-weight: 600;
+}
+
+.mainContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+.leftSideText{
+    margin-top: 8vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 30px;
+    padding: 2em;
+
+}
+.leftSideText > p{
+    font-size: 1.2em;
+}
+.btns{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+.leftSideText >h1{
+    font-size: 2.3em;
+}
+.leftSideText > h1::first-letter{
+    color: rgb(181, 18, 159);
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 1.3em;
+    background-color: rgb(26, 200, 122);
+}
+.contactbtn{
+    background-color: steelblue;
+   
+}
+.btn:hover{
+    background-color: white;
+    border: 2px solid rgb(26, 200, 122);
+    color:rgb(26, 200, 122)
+}
+.rightSideImage{
+    margin-top: 8vh;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageSection{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    border-radius: 50%;
+}

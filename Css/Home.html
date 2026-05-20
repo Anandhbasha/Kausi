@@ -3,39 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .box{
-            width: 100px;
-            height: 100px;
-            background-color: palegoldenrod;
-            margin-bottom: 5px;
-        }
-        /* .box:nth-child(5){
-            background-color:red;
-        } */
-        .box:last-child{
-            background-color: blue;
-        }
-        p::selection{
-            background-color: red;
-        }
-        p::first-line{
-            color: purple;
-        }
-    </style>
+    <title>Flex</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate obcaecati minus nulla eum laudantium nam molestiae nihil provident voluptate ducimus odit optio, sapiente dolores magni quis suscipit aliquam unde architecto!</p>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
+    <div class="navBar">
+        <ul class="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="mainContainer">
+        <div class="leftSideText">
+            <h1>Anandhakumar M</h1>
+            <h2>Trainer & Developer & UX/UI Designer</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis consequuntur ipsum velit at recusandae deserunt porro numquam saepe, suscipit fuga minima quae nisi illum maxime iure nesciunt vel repellat excepturi.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem esse porro laborum illum, error praesentium similique totam soluta tenetur. Saepe tempora magnam molestias laboriosam nihil consequuntur quas quisquam sapiente suscipit.
+            </p>
+            <div class="btns">
+                <button class="btn">Hire Me</button>
+                <button class="btn contactbtn">Contact</button>
+            </div>
+        </div>
+        <div class="rightSideImage">
+            <div class="imageSection">
+                <img src="">
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <div class="base base1">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">11 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+        <div class="base">20 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius dolore architecto ut officia nesciunt labore debitis porro aut ab, aspernatur sint omnis atque quos nulla quis accusantium accusamus dolorem?</div>
+    </div> -->
 </body>
 </html>
