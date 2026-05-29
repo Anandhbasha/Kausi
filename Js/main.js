@@ -1,155 +1,307 @@
-// variable
-// hoisting
-// var let const
-// console.log(a)
-// var a = 10
-// type->var
-//a ->variable name
-// = -> assignment operator ->right side irukka value left side la irukka variable assign pannum
-// 10-> value
+// // variable
+// // hoisting
+// // var let const
+// // console.log(a)
+// // var a = 10
+// // type->var
+// //a ->variable name
+// // = -> assignment operator ->right side irukka value left side la irukka variable assign pannum
+// // 10-> value
 
-// var b =20
+// // var b =20
 
-// a=b
-// a=50
-// console.log(a)
-// var a = 10
-// var a =60
-// // print -> sep  cout>>"Hello\n" end
-// console.log("The a value is:"+a);
-// sep =" "
+// // a=b
+// // a=50
+// // console.log(a)
+// // var a = 10
+// // var a =60
+// // // print -> sep  cout>>"Hello\n" end
+// // console.log("The a value is:"+a);
+// // sep =" "
 
-// let
-//  let x = 50
-//  x=60
-//  console.log(x);
-
-
-//const 
-
-// const a = 10
-// a=20
-// console.log(a);
+// // let
+// //  let x = 50
+// //  x=60
+// //  console.log(x);
 
 
-// scope of variable
-// global scope
-// const x =10
+// //const 
 
-// {
-//     console.log(x);
+// // const a = 10
+// // a=20
+// // console.log(a);
+
+
+// // scope of variable
+// // global scope
+// // const x =10
+
+// // {
+// //     console.log(x);
     
-// }
+// // }
  
 
 
-// local scope
-// {
-//     const x =10   
-// }
-// // // console.log(x);
+// // local scope
+// // {
+// //     const x =10   
+// // }
+// // // // console.log(x);
  
-// {
-//     const x =20
-//     console.log(x);
-// }
+// // {
+// //     const x =20
+// //     console.log(x);
+// // }
 
-// operators
-// Arithmetic
-    // +,-,*,/,%,++,--
+// // operators
+// // Arithmetic
+//     // +,-,*,/,%,++,--
+// // let a = 10
+// // let b =5
+
+// // console.log(a+b); //15
+// // console.log(a-b);   //5
+// // console.log(a*b); //50
+// // console.log(a/b); //2
+// // console.log(a%b); //0
+// // console.log(a++); //10
+// // console.log(++a);
+// // //12
+// // console.log(a--); //11
+// // console.log(a);
+
+
 // let a = 10
 // let b =5
+// // comaprison operator
+//     // >,<.<=,>=,!=,==,===
 
-// console.log(a+b); //15
-// console.log(a-b);   //5
-// console.log(a*b); //50
-// console.log(a/b); //2
-// console.log(a%b); //0
-// console.log(a++); //10
-// console.log(++a);
-// //12
-// console.log(a--); //11
-// console.log(a);
+// // console.log(a>b);
+// // console.log(a<b);
+// // console.log(a<=10);
+// // console.log(a>=10);
+// // console.log(a!=10);
+// // console.log(a=='10');
+// // console.log(a==='10');
 
+// // logical
+//     // && || 
+// let age = 17
+// let state = "TN"
 
-let a = 10
-let b =5
-// comaprison operator
-    // >,<.<=,>=,!=,==,===
+// // console.log(age>=18 && state=="TN");
+// // console.log(age>=18 || state=="KL");
 
-// console.log(a>b);
-// console.log(a<b);
-// console.log(a<=10);
-// console.log(a>=10);
-// console.log(a!=10);
-// console.log(a=='10');
-// console.log(a==='10');
+// // let age = 15
+// city = "SA"
 
-// logical
-    // && || 
-let age = 17
-let state = "TN"
-
-// console.log(age>=18 && state=="TN");
-// console.log(age>=18 || state=="KL");
-
-// let age = 15
-city = "SA"
-
-// console.log(!(age>=18) && state=="TN" || city=="SA");
+// // console.log(!(age>=18) && state=="TN" || city=="SA");
 
 
-// // assigmnent
-//     // =,+=,-+,*+,/=,%=
-// let c =30
+// // // assigmnent
+// //     // =,+=,-+,*+,/=,%=
+// // let c =30
 
-// c+=5
-// console.log(c);
+// // c+=5
+// // console.log(c);
 
 
 
 
 
-// // ternary
-// let temp = 31
-// // condtion?expectedoutput:erroredouput
-// console.log(temp>=32?"switch on the Ac":"Switch on the fan");
+// // // ternary
+// // let temp = 31
+// // // condtion?expectedoutput:erroredouput
+// // console.log(temp>=32?"switch on the Ac":"Switch on the fan");
 
 
 
-// Datatypes
-// premitive
-// number
-// boolean
-todayClass = true
-console.log(typeof(todayClass));
+// // Datatypes
+// // premitive
+// // number
+// // boolean
+// todayClass = true
+// console.log(typeof(todayClass));
 
-// String
-userName = "arun"
-console.log(typeof(userName));
+// // String
+// userName = "arun"
+// console.log(typeof(userName));
 
-// undefined
-let e =undefined
-console.log(typeof(e));
+// // undefined
+// let e =undefined
+// console.log(typeof(e));
 
-// null
-let p = null
-console.log(typeof(p));
+// // null
+// let p = null
+// console.log(typeof(p));
 
-// nan
-let t = 50
-console.log(t*userName);
+// // nan
+// let t = 50
+// console.log(t*userName);
 
-// non premitive
+// // non premitive
+// // array
+// let arr = [10,undefined,null,true,10.5]
+// console.log(arr);
+
+// // object
+// person = {
+//     userName:"anandh",
+//     age:32,
+//     address:"salem",
+//     isALive:true
+// }
+// console.log(person);
+
+
+// console.log((10+5)*2+(5-1)/2+50+(10%3));
+// 15*2+4/2+50+1
+//30+2+50+1
+//83
+
 // array
-let arr = [10,undefined,null,true,10.5]
-console.log(arr);
+// let arr = [20,40,60,80]
+// // console.log(arr[0]);
+// // console.log(arr[1]);
+// // console.log(arr[2]);
+// // console.log(arr[3]);
 
-// object
-person = {
-    userName:"anandh",
-    age:32,
-    address:"salem",
-    isALive:true
+// let arr2d = [[10,20,30],[50,70,80]]
+// console.log(arr2d[1][0]);
+
+// arr2d[0][2] = 100
+
+// console.log(arr2d);
+
+// // object
+// data = {
+//     prodName:"kitkat",
+//     prodPrice:"50rs",
+//     prodDesc:"lorem",
+//     incredients:{
+//         choca:"ghgghj",
+//         sugar:"150gr",
+//         flaour:{
+//             oneflaour:"DarkCholate",
+//             twofalour:"rdesreg"
+//         }
+//     }
+// }
+
+// console.log("The Product name is:"+data.prodName+"\nand the Price amount of the Product is"+data.prodPrice);
+
+// console.log(data.incredients.flaour.onefalaour);
+
+
+// const products = [
+//     {
+//     prodName:"kitkat",
+//     prodPrice:"50rs",
+//     prodDesc:"lorem",
+//     incredients:{
+//         choca:"ghgghj",
+//         sugar:"150gr",
+//         flaour:{
+//             oneflaour:"DarkCholate",
+//             twofalour:"rdesreg"
+//         }
+//     }
+// },
+// {
+//     prodName:"Dairy Milk",
+//     prodPrice:"50rs",
+//     prodDesc:"lorem",
+//     incredients:{
+//         choca:"ghgghj",
+//         sugar:"150gr",
+//         flaour:{
+//             oneflaour:"Fruit&nuts",
+//             twofalour:"rdesreg"
+//         }
+//     }
+// },
+// {
+//     prodName:"kitkat",
+//     prodPrice:["50rs","100rs","80rs"],
+//     prodDesc:"lorem",
+//     incredients:{
+//         choca:"ghgghj",
+//         sugar:"150gr",
+//         flaour:{
+//             oneflaour:"DarkCholate",
+//             twofalour:"rdesreg"
+//         }
+//     }
+// }
+
+// ]
+
+
+// console.log(products[2].prodPrice[0]);
+
+
+
+// conditional Statements
+// if
+let speed = 80
+// if(speed>60){
+//     console.log("Bike is running on High Speed");    
+// }
+// if else
+//     if(speed>60){
+//     console.log("Bike is running on High Speed");    
+// }else{
+//     console.log("Bike is running on Economy");
+    
+// }
+// else if
+//     if(speed>60){
+//     console.log("Bike is running on High Speed");    
+// }
+// else if(speed<20){
+//     console.log("Bike is running on low Speed");
+// }else{
+//     console.log("Bike is running on Economy");
+    
+// }
+// let key = true
+// let start = false
+
+// if(key==true){
+//     if(start==true){
+//         console.log("Bike can move");        
+//     }else{
+//         console.log("Bike not yet Started");     
+//     }
+// }else{
+//     console.log("Bike key is off");        
+
+// }
+// switch
+let d = new Date()
+day = d.getDay()
+
+switch(day){
+    case 0:
+        console.log("Today is sunday")
+        break
+    case 1:
+        console.log("Today is monday")
+        break
+    case 2:
+        console.log("Today is tuesday")
+        break
+    case 3:
+        console.log("Today is Wednesday")
+        break
+    case 4:
+        console.log("Today is Thursday")
+        break
+    case 5:
+        console.log("Today is Friday")
+        break
+    default:
+        console.log("today is Saturday");
+        
 }
-console.log(person);
