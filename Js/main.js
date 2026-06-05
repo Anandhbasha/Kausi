@@ -397,76 +397,160 @@
 // // // filter
 // // let three = arr.filter((a)=>a%3===0)
 // // console.log(three);
-// // reduce
-// let total = arr.reduce((acc,sum)=>acc+sum) //0,10 =>10+20 = 30+30 = 60+40
-// console.log(total);
-// array methods
+// // // reduce
+// // let total = arr.reduce((acc,sum)=>acc+sum) //0,10 =>10+20 = 30+30 = 60+40
+// // console.log(total);
+// // array methods
 
-let arr  = [10,20,80,60,70]
-// push
+// let arr  = [10,20,80,60,70]
+// // push
 
-arr[5] = 22000
-arr.push(1000)
-console.log(arr);
-
-// pop
-arr.pop()
-console.log(arr);
-
-// shift
-arr.shift()
-console.log(arr);
-
-// unshift
-arr.unshift(124)
-console.log(arr);
-
-// sort
-// arr = [20,10,15,18]
-// arr.sort()
+// arr[5] = 22000
+// arr.push(1000)
 // console.log(arr);
 
-// slice
-console.log(arr.slice(0,4));
+// // pop
+// arr.pop()
+// console.log(arr);
 
-// splice
-arr.splice(4,2,7000)
-console.log(arr);
+// // shift
+// arr.shift()
+// console.log(arr);
 
-// find
-let guess = arr.find((item)=>item===7001)
-console.log(guess);
+// // unshift
+// arr.unshift(124)
+// console.log(arr);
 
-// indexof
-console.log(arr.indexOf(7001));
+// // sort
+// // arr = [20,10,15,18]
+// // arr.sort()
+// // console.log(arr);
 
-// includes
-console.log(arr.includes(124));
+// // slice
+// console.log(arr.slice(0,4));
 
-// set
-let newSet = new Set()
+// // splice
+// arr.splice(4,2,7000)
+// console.log(arr);
 
-newSet.add("apple")
-newSet.add("Orange")
-newSet.add("Kiwi")
-newSet.add("Kiwi")
-console.log(newSet);
+// // find
+// let guess = arr.find((item)=>item===7001)
+// console.log(guess);
 
-// split
-let names = "This is Js Program"
-let newArr = names.split(" ")
-console.log(newArr);
+// // indexof
+// console.log(arr.indexOf(7001));
 
-//join
-let lastarr = newArr.join("-")
-console.log(lastarr);
+// // includes
+// console.log(arr.includes(124));
 
-//reverse
-let arr1 = [51,50,77,22,10]
-let rev = arr1.reverse((a,b)=>a-b)
-console.log(rev);
+// // set
+// let newSet = new Set()
 
-// toLowerCase
-console.log(names.toUpperCase());
-console.log(names.toLowerCase());
-// toUpperCase
+// newSet.add("apple")
+// newSet.add("Orange")
+// newSet.add("Kiwi")
+// newSet.add("Kiwi")
+// console.log(newSet);
+
+// // split
+// let names = "This is Js Program"
+// let newArr = names.split(" ")
+// console.log(newArr);
+
+// //join
+// let lastarr = newArr.join("-")
+// console.log(lastarr);
+
+// //reverse
+// let arr1 = [51,50,77,22,10]
+// let rev = arr1.reverse((a,b)=>a-b)
+// console.log(rev);
+
+// // toLowerCase
+// console.log(names.toUpperCase());
+// // toUpperCase
+// console.log(names.toLowerCase());
+
+
+// function
+//funtion -> keyword
+// add -> funtion name 
+// ()-> paremeter getting area
+// {
+// } ->block
+// function add(){
+//     let a = 10
+//     let b= 20
+//     console.log(a+b);    
+// }
+
+
+// add()
+
+// function greet(name){
+//     console.log("Hello",name);    
+// }
+// greet("kausi")
+// greet("Arun")
+// greet("Ajay")
+
+
+// function greet(name){
+//     return name;    
+// }
+// console.log("Hello",greet("kausi"));
+
+// console.log("Hello",greet("Arun"));
+
+// console.log("Hello",greet("Ajay"));
+
+
+// function total (t,e,m,s,ss){
+//     return t+e+m+s,ss
+// }
+// console.log(total(60,70,80,88,99));
+
+// console.log(total(60,70,78,85,92));
+
+
+// // // arrow
+// const newfun = (a,b)=>{
+//     return a*b
+// }
+
+// // console.log(newfun(10,20,30));
+
+
+// // anonymous
+// const ana = function(){
+//     console.log(newfun(10,20,30));
+// }
+// ana()
+
+
+
+// const avg = (totalmarks)=>{
+//     return totalmarks/5
+// }
+
+// const total = function(t,e,m,s,ss){
+//     sum = t+e+m+s+ss
+//     console.log(avg(sum));
+    
+// }
+
+// total(60,70,80,88,99)
+
+
+// // IIFI
+//  const iffi = (function(){
+//     console.log("Hello");
+    
+//  })
+
+//  iffi()
+
+
+// 5*4*3*2*1 = 120
+
+// 
