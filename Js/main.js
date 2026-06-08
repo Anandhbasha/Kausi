@@ -553,4 +553,80 @@
 
 // 5*4*3*2*1 = 120
 
-// 
+
+// Destructure
+// let arr = [10,20,30,40]
+// // let val1 = arr[0]
+// // let val2 = arr[1]
+// // rest operator
+// // console.log(val1);
+// // console.log(val2);
+// const[val,val1,...val2] = arr
+// console.log(val);
+// console.log(val1);
+// console.log(val2);
+
+// const person = {
+//     name:"arun",
+//     city:"CBE",
+//     age:20
+// }
+
+// const{name,age} = person
+// console.log(name,age);
+
+
+// spred operator
+// let arr = ["apple","banana","kiwi"]
+// let price = [100,30,150]
+
+// let prod = [...arr,...price]
+// console.log(prod);
+
+
+// // console.log("The value is"+10);
+// // console.log("The value is",10);
+
+
+// // template literals
+// let a =10
+// console.log(`The value is ${a}`);
+// // setTimeout
+// setTimeout(()=>{
+//     console.log("hello");
+    
+// },5000)
+// setInterval
+// setInterval(()=>{
+//     console.log("hello");
+// },5000)
+// let avalible = 5
+// for(let x =0;x<10;x++){
+//     if(x==5){
+//         break
+//     }
+//     console.log("Remaining Tickets",avalible-1);
+//     avalible--
+    
+// }
+
+
+// promise
+// let a =10
+// let a =20
+// console.log("Hello");
+
+const ticketBooking = new Promise((resolved,reject)=>{
+    let booked = false
+    if(booked){
+        resolved("Ticket Booked Succesfully")
+    }else{
+        reject("Unable to book the Ticket")
+    }
+
+})
+
+ticketBooking.then((result)=>console.log(result)).catch((err)=>console.log(err))
+
+
+console.log("Succesfully Working");
